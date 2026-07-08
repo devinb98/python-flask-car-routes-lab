@@ -7,7 +7,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-    return '<h1>Welcome Flatiron Cars!</h1>'
+    return '<h1>Welcome to Flatiron Cars</h1>'
 
 @app.route('/<string:model>')
 def model(model):
